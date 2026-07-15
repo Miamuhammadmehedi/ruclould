@@ -1,0 +1,16 @@
+# পাইথনের ক্যাশ ফাইল (Python Cache)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# টার্মাক্স বা অ্যান্ড্রয়েডের লোকাল টেস্ট ফাইল
+.pyenv/
+.pytest_cache/
+
+# কোনো ইউজার যদি ভুলে এই ফোল্ডারে বড় কোনো ফাইল বা মুভি ডাউনলোড করে ফেলে
+/RuvCloud/files/*
+!/RuvCloud/files/.gitkeep
+
+# ওএস জেনারেটেড ফাইল (Windows/Mac ফালতু ফাইল)
+Thumbs.db
+.DS_Store
